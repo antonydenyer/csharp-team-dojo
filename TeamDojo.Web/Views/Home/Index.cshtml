@@ -1,0 +1,38 @@
+﻿@model TeamDojo.Web.Models.Network
+
+@{
+	ViewBag.Title = "Home Page";
+}
+<p>
+	<table>
+		<thead>
+			<tr>
+				<td>
+					Programmer
+				</td>
+				<td>
+					Skills
+				</td>
+				<td>
+					Recommends
+				</td>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var programmer in @Model.Programmers)
+   { 
+				<tr>
+					<td>
+						@programmer.Name
+					</td>
+					<td>
+						@string.Join(",",programmer.Skills.Select(x => x.Value))
+					</td>
+					<td>
+						@string.Join(",",programmer.Recommendations.Select(x => x.Name))
+					</td>
+				</tr> 
+   }
+		</tbody>
+	</table>
+</p>

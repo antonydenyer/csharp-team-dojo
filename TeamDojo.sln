@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamDojo.Tests", "src\TeamDojo.Tests\TeamDojo.Tests.csproj", "{BC96426F-0777-4F13-BFDD-888835784925}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamDojo.Web", "TeamDojo.Web\TeamDojo.Web.csproj", "{EF215351-6724-49E9-96A7-1257E8CDBC33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{BC96426F-0777-4F13-BFDD-888835784925}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC96426F-0777-4F13-BFDD-888835784925}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC96426F-0777-4F13-BFDD-888835784925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF215351-6724-49E9-96A7-1257E8CDBC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF215351-6724-49E9-96A7-1257E8CDBC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF215351-6724-49E9-96A7-1257E8CDBC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF215351-6724-49E9-96A7-1257E8CDBC33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
